@@ -18,10 +18,34 @@
     <!-- Feather Icons -->
     <script src="https://unpkg.com/feather-icons"></script>
 
+    <!-- intro -->
+    <link rel="stylesheet" href="https://unpkg.com/intro.js/minified/introjs.min.css">
+    <script src="https://unpkg.com/intro.js/minified/intro.min.js"></script>
+
+
     <link rel="stylesheet" href="css/main.min.css" />
   </head>
 
   <body id="top">
+    <!-- Popup petunjuk navbar -->
+<div id="navbarGuide" class="popup-container">
+  <div class="popup-content">
+    <h2>Petunjuk Navigasi</h2>
+    <p>Gunakan menu navigasi untuk berpindah antar halaman:</p>
+    <ul>
+      <li><strong>Tujuan Pembelajaran:</strong> <br>Untuk melihat tujuan pembelajaran.</li>
+      <li><strong>Video Materi:</strong> <br>Akses materi video dengan mudah.</li>
+      <li><strong>Materi:</strong> <br>Slide pembelajaran interaktif.</li>
+      <li><strong>Quiz:</strong> <br>Coba kuis untuk menguji pengetahuanmu.</li>
+    </ul><br>
+    <p>Untuk mode mobile, gunakan <strong>ikon garis 3 dipojok kanan atas</strong> untuk membuka menu navigasi.</p>
+    <button onclick="closeNavbarGuide()">Mulai</button>
+  </div>
+</div>
+<div class="main-content">
+  <!-- Semua konten halaman masuk di sini -->
+
+
     <!-- Navbar start -->
     <nav class="navbar">
       <a href="#top"><img src="img/logo.png" alt="Logo" /></a>
@@ -520,6 +544,8 @@
       <div class="credit">
         <p>Created by M. Iqbal Nursyahid Saroni | &copy; 2024.</p>
       </div>
+
+    </div>
     </footer>
     <!-- Footer end -->
 
@@ -530,5 +556,6 @@
 
     <!-- My Javascript -->
     <script src="js/script.min.js"></script>
+    
   </body>
 </html>
